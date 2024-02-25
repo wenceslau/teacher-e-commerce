@@ -30,11 +30,11 @@ public class PedidoListGateway implements PedidoGateway {
     @Override
     public Pedido buscar(Integer id) {
         for (Pedido pedido : pedidos) {
-            if (pedido.id().equals(id)) {
+            if (pedido.id().valor().equals(id)) {
                 return pedido;
             }
         }
-        return null;
+        throw new RuntimeException("Pedido não encontrado");
     }
 
     @Override

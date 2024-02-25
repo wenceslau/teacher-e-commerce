@@ -1,7 +1,5 @@
 package com.ada.econmerce.infraestrutura.product;
 
-import com.ada.econmerce.domain.cliente.Cliente;
-import com.ada.econmerce.domain.cliente.ClienteGateway;
 import com.ada.econmerce.domain.produto.Produto;
 import com.ada.econmerce.domain.produto.ProdutoGateway;
 

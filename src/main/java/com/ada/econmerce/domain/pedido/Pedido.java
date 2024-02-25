@@ -50,7 +50,7 @@ public class Pedido {
         for (ItemPedido itemPedido : itens) {
             if (itemPedido.produto().id().equals(produtoID)) {
                 this.itens.remove(itemPedido);
-                valorTotal.subtract(itemPedido.valor());
+                valorTotal = valorTotal.subtract(itemPedido.valor());
                 break;
             }
         }
@@ -59,7 +59,7 @@ public class Pedido {
     public void adicionarProduto(Produto produto, Integer quantidade) {
         ItemPedido itemPedido = ItemPedido.criar(produto, quantidade);
         this.itens.add(itemPedido);
-        valorTotal.add(itemPedido.valor());
+        valorTotal = valorTotal.add(itemPedido.valor());
     }
 
     public Produto buscarProduto(ProdutoID produtoID) {

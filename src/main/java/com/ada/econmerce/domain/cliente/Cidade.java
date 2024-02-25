@@ -27,7 +27,7 @@ public class Cidade {
         if (nome == null || nome.isEmpty()) {
             throw new IllegalArgumentException("Nome inválido");
         }
-        if (uf == null || uf.isEmpty() || uf.length() != 2) {
+        if (uf == null || uf.length() != 2) {
             throw new IllegalArgumentException("UF inválido");
         }
     }

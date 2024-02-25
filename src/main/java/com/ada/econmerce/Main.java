@@ -13,7 +13,6 @@ import com.ada.econmerce.domain.pedido.PedidoGateway;
 import com.ada.econmerce.domain.produto.Produto;
 import com.ada.econmerce.domain.produto.ProdutoGateway;
 import com.ada.econmerce.infraestrutura.cliente.ClienteListGateway;
-import com.ada.econmerce.infraestrutura.cliente.ClienteMySqlGateway;
 import com.ada.econmerce.infraestrutura.pedido.PedidoListGateway;
 import com.ada.econmerce.infraestrutura.product.ProdutoListGateway;
 

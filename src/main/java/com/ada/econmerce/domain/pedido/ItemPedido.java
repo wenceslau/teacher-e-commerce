@@ -14,6 +14,7 @@ public class ItemPedido {
         this.produto = produto;
         this.quantidade = quantidade;
         this.valor = produto.preco().multiply(new BigDecimal(quantidade));
+        validar();
     }
 
     public static ItemPedido criar(Produto produto, Integer quantidade) {

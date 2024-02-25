@@ -1,6 +1,5 @@
 package com.ada.econmerce.domain.produto;
 
-import com.ada.econmerce.domain.cliente.Cliente;
 
 import java.util.List;
 

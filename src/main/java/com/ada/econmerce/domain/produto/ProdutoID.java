@@ -2,7 +2,6 @@ package com.ada.econmerce.domain.produto;
 
 import com.ada.econmerce.domain.Identificador;
 
-import java.util.UUID;
 
 public class ProdutoID extends Identificador<Integer> {
 
@@ -10,7 +9,7 @@ public class ProdutoID extends Identificador<Integer> {
     private final Integer valor;
 
     private ProdutoID() {
-        this.id++;
+        ProdutoID.id++;
         this.valor = id;
     }
 

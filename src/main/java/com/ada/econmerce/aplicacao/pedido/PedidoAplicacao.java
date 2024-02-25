@@ -1,6 +1,5 @@
 package com.ada.econmerce.aplicacao.pedido;
 
-import com.ada.econmerce.domain.Identificador;
 import com.ada.econmerce.domain.cliente.Cliente;
 import com.ada.econmerce.domain.cliente.ClienteGateway;
 import com.ada.econmerce.domain.pedido.ItemPedido;

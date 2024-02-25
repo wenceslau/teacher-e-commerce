@@ -1,6 +1,5 @@
 package com.ada.econmerce.infraestrutura.cliente;
 
-import com.ada.econmerce.domain.Identificador;
 import com.ada.econmerce.domain.cliente.Cliente;
 import com.ada.econmerce.domain.cliente.ClienteGateway;
 
